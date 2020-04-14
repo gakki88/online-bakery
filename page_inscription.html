@@ -1,0 +1,84 @@
+<!-- author Léa
+date 1/05/2017 -->
+
+<HTML>
+
+<head>
+	<title>Page d'inscription</title>
+  <meta charset="UTF-8"/>
+  <link href="CSS/style.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<br/>
+<header id="top">
+  <div>
+  	<h1> Créez votre compte à la boulangerie "Les 5 gourmandes" </h1>
+  </div>
+ </header>
+
+<div class= "centrage">
+<form action ="traiterFormInscription.php" method ="POST" >
+<table class="centerC">
+  <tr>
+	  <td> <label for="n" class="inline">nom</label></td>
+	  <td> <input type="text" name="nom" placeholder="entrez votre nom" id="n"></td>
+  </tr>
+  <tr>
+	<td> <label for="pr" class="inline">prénom</label></td>
+	<td> <input type="text" name="prenom" placeholder="entrez votre prenom" id="pr"></td>
+  </tr>
+  <tr>
+	<td> <label for="a" class="inline">adresse</label></td>
+	<td> <input type="text" name="adresse" value="" id="a">
+  <label for="v" class="inline">ville</label>
+  <input type="text" name="ville" value="" id="v">
+  <label for="cp" class="inline">CP</label>
+  <input type="text" name="cp" value="" id="cp"></td>
+  </tr>
+  <tr>
+	<td> <label for="t" class="inline">n° tél.</label></td>
+	<td> <input type="text" name="telephone" value="" id="t"></td>
+  </tr>
+</table>
+  <br/>
+  <label for="d" class="inline">date de naissance</label>
+  <input type="text" name="jour" placeholder="xx" id="d">
+  /
+    <input type="text" name="mois" placeholder="xx" id="d">
+    /
+      <input type="text" name="annee" placeholder="xxxx" id="d">
+  <br/>
+  <label for="H" class="inline">sexe  </label>
+  <input type="radio" name="monSexe" id="H" value="homme"/><label for="H" class="inline">Homme</label>
+  <input type="radio" name="monSexe" id="F" value="femme"/><label for="F" class="inline">Femme</label><br/>
+
+
+      <br/>
+      <br/>
+      <br/>
+<table class="centerC">
+  <tr>
+	  <td> <label for="p" class="inline">pseudo</label> </td>
+	  <td> <input type="text" name="pseudo" value="" id="p" class="caseMdpInscrip"> </td>
+  </tr>
+  <tr>
+	  <td> <label for="m" class="inline">mot de passe</label> </td>
+	  <td> <input type="password" name="mdp" placeholder="au moins 8 caractères dont 1 chiffre" id="m" class="caseMdpInscrip"> </td>
+  </tr>
+  <tr>
+	  <td> <label for="cm" class="inline">confirmation mot de passe</label> </td>
+	  <td> <input type="password" name="cmdp" value="" id="cm" class="caseMdpInscrip"> </td>
+  </tr>
+  <tr>
+	  <td> </td>
+
+    <td> <input class="button" type="submit" name="action" value="S'inscrire" id="connecter"/> </td>
+   </tr>
+</table>
+
+ </form>
+<div/>
+</body>
+<HTML>

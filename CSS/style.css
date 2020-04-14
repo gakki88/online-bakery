@@ -1,0 +1,192 @@
+@font-face { /* Définition d'une nouvelle police nommée LearningCurveProRegular */
+
+    font-family: 'LearningCurveProRegular';
+    src: url('learning_curve_regular_ot_tt.ttf') format('truetype'),
+}
+
+* {
+font-family :Georgia, Arial , Helvetica , sans-serif ;
+}
+#logo {
+float : right ;
+}
+#top {
+width : 500 px;
+}
+fieldset {
+width : 500 px;
+padding : 10 px;
+margin-top : 10 px;
+border : solid 3px grey ;
+line-height : 2em;
+}
+legend {
+border : none ;
+padding : 5px 10 px 5px 10 px;
+line-height : 1em;
+background-color : grey ;
+color : white ;
+}
+label {
+font-family: cursive;
+width : 150 px;
+display : block ;
+/*float : left ;*/
+}
+ label.inline {
+ display:inline;
+ margin-right:20px;
+ }
+label.labelradio , label[for=copie] {
+font-family: Comic Sans MS;
+display : inline ;
+float : none ;
+margin-right :20 px;
+}
+h1{
+  /*font-family: 'Lobster Two', cursive;
+  font-style: : oblique;
+  font-size : 24 px;
+  text-align: center;
+  color: pink;*/
+
+  text-align: center;
+margin-bottom:50px;
+
+font: 400 70px/0.8 'Great Vibes', Helvetica, sans-serif;
+color: rgb(210,60,150);
+text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
+}
+input[type=submit],input[type=reset],input[type=button]{
+  font-family: Comic Sans MS;
+  background-color : rgb(0, 150, 254) ;
+  color : white ;
+  margin-top : 20 px;
+  font-size :16 px;
+  weight : bold;
+  border-radius: 8px;
+
+}
+
+h2{
+  font-family: 'Lobster Two', cursive;
+  font-style: : oblique;
+  font-size : 24 px;
+  text-align: center;
+
+}
+
+body.panier{
+  background-image:url("fond.jpg");
+  background-repeat: no-repeat;
+
+}
+
+body.chocolat{
+  background-image:url("chocolat.jpeg");
+  background-repeat: no-repeat;
+
+}
+
+body.viennoiserie{
+  background-image:url("viennoiserie.jpeg");
+  background-repeat: no-repeat;
+
+}
+
+body.gateau{
+  background-image:url("gateau.jpeg");
+  background-repeat: no-repeat;
+
+}
+
+#barre_menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items : stretch;;
+}
+
+
+table.panier {
+  border: medium solid #FF69B4;
+  border-collapse: collapse;
+  width: 50%;
+  margin-left:auto;
+  margin-right:auto;
+}
+th.panier {
+  font-family: Comic Sans MS;
+  font-size: large;
+  border: thin solid #D3D3D3;
+  width: 50%;
+  padding: 5px;
+  background-color: #FFB6C1;
+  background-image: url(sky.jpg);
+}
+td.panier {
+  font-family: sans-serif;
+  border: thin solid #D3D3D3;
+  width: 50%;
+  padding: 5px;
+  text-align: center;
+  background-color: #FFFACD;
+}
+.centrage {
+  text-align: center;
+}
+
+#connecter {
+margin-top: 2%;
+margin-left:25px;
+}
+.centerC{
+  margin-left:39%;
+  margin-top:90px;
+}
+.centerI{
+  margin-left:39%;
+  margin-top:70px;
+}
+#imageConnexion{
+	margin-left: 37%;
+	margin-right: 35%;
+	margin-top:80px;
+}
+input{
+margin-right:10px;
+}
+#d, #cp{
+ width:45px;
+}
+.bouton{
+  width: 300px;
+  height: 50px;
+  text-decoration-style: none;
+  text-decoration: none;
+}
+.section_produit{
+  margin-top: 100px;
+}
+#images_produit{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #FFF0F5;
+}
+.images_produit{
+  border : 10px #C71585;
+  border-style: double;
+}
+#tableau{
+display: flex;
+justify-content: space-around;
+}
+
+.bouton_deconnexion{
+  float: right;
+}
+
+.caseMdpInscrip{
+width:270px;
+}
