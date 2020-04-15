@@ -1,14 +1,13 @@
-# Boulangerie-en-ligne
-Création d'un site de commandes d'une boulangerie
+# online bakery
+Create a website for orders of a bakery
 
-Avant de lancer le site, il est nécessaire de vérifier que le dossier Fichiers soit exécutable par tout le monde.
-  %Si ce n'est pas le cas se placer dans Boulangerie-en-ligne sur un terminal et entrer la commande
-  chmod 755 Fichiers
+Before starting the website, make sure the document Fichiers is executable. 
+If not, enter "chmod 755 Fichiers" in terminal
 
-Mais aussi que les fichiers /Fichiers/info.txt, /Fichiers/clients.txt et /Fichiers/nbClients.txt soient en mode lecture et écriture pour tout le monde
-  %Si ce n'est pas le cas se placer dans Boulangerie-en-ligne/Fichiers sur un terminal et entrer les commandes
+Also make sure /Fichiers/info.txt, /Fichiers/clients.txt and /Fichiers/nbClients.txt are in read/write mode
+If not, enter following command in terminal
   chmod 766 nbClients.txt
   chmod 766 clients.txt
   chmod 766 info.txt
 
-Pour lancer le site : ouvrir la page page_connexion.html
+To start the site : open the page page_connexion.html
